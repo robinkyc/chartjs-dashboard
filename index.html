@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>chartjs Dashboard</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="assets/css/custom.css" rel="stylesheet">
+	<script src="assets/js/jquery-min.js"></script>
+	<script src="assets/js/underscore-min.js"></script>
+	<script src="assets/js/backbone-min.js"></script>
+	<script src="assets/js/Chart.js"></script>
+	<script src="js/model/dailyTaskModel.js"></script>
+	<script src="js/collection/dailyTaskCollection.js"></script>
+	<script src="js/view/inputView.js"></script>
+	<script src="js/view/lineView.js"></script>
+	<script src="js/view/averagePieView.js"></script>
+	<script src="js/view/targetRadarView.js"></script>
+	<script src="js/view/app.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body>
+	<div id="main" class="main-wrapper">
+		<div id="menu" class="btn">Generate me!</div>
+		<div id="box0" class="box ">
+				<div class="box-title">Generate daily task (Target/Min/Max)</div>
+				<div class="box-wrapper">
+					<div id="input-container"></div>
+				</div>
+			</div>
+		<div id="box1" class="box" style="width:100%">
+			<div class="box-title">Daily task</div>
+			<div class="box-wrapper"></div>
+		</div>
+		<div class="clear"></div>
+		<div id="box2" class="box box-half">
+			<div class="box-title">Average task per day</div>
+			<div class="box-wrapper"></div>
+		</div>
+		<div id="box3" class="box box-half">
+			<div class="box-title">Achievement</div>
+			<div class="box-wrapper"></div>
+		</div>
+	</div>
+</body>
+</html>
